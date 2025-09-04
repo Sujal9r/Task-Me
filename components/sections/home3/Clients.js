@@ -205,7 +205,7 @@ export default function Clients() {
                 padding: '0 20px'
             }}>
                 <img 
-                    src="https://storage.googleapis.com/support-forums-api/attachment/thread-38753685-12277661469546851254.jpg" 
+                    src="/assets/images/feature.png" 
                     alt="Background"
                     style={{
                         maxWidth: '100%',
