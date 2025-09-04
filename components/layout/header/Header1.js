@@ -1,0 +1,88 @@
+import Link from "next/link"
+import Menu from "../Menu"
+import MobileMenu from "../MobileMenu"
+
+export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
+    
+    return (
+        <>
+        {/* main header */}
+        <header className={`header ${scroll ? "fixed-header" : ""}`}>
+            <div className="main_header">
+                <div className="container"> 
+                    <div className="main_header_inner">
+                        <div className="main_header_logo">
+                            <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <div className="logo_container">
+                                    <div className="logo_grid">
+                                        <div className="logo_square"></div>
+                                        <div className="logo_square"></div>
+                                        <div className="logo_square"></div>
+                                        <div className="logo_square"></div>
+                                    </div>
+                                    <h3 className="logo_text">Task Me</h3>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="main_header_menu menu_area">
+                            <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
+                                <div className="menu-bar">
+                                    <i className="fas fa-bars"></i>
+                                </div>
+                            </div>
+                            <nav className="main-menu navbar-expand-md navbar-light">
+                                <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <Menu />
+                                </div>
+                            </nav>
+                        </div>
+                        <div className="header_right_content">
+                            <div className="link-btn">
+                                <Link href="/trial" className="btn_style_one">
+                                    <span>Start Free Trial</span>
+                                </Link>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
+            <div className={`sticky-header ${scroll ? "animated slideInDown" : ""}`}>
+                <div className="container">
+                    <div className="main_header_inner">
+                        <div className="main_header_logo">
+                            <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <div className="logo_container">
+                                    <div className="logo_grid">
+                                        <div className="logo_square"></div>
+                                        <div className="logo_square"></div>
+                                        <div className="logo_square"></div>
+                                        <div className="logo_square"></div>
+                                    </div>
+                                    <h3 className="logo_text">Task Me</h3>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="main_header_menu menu_area">
+                            <nav className="main-menu clearfix">
+                                <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <Menu />
+                                </div>
+                            </nav>
+                        </div>
+                        <div className="header_right_content">
+                            <div className="link-btn">
+                                <Link href="/trial" className="btn_style_one">
+                                    <span>Start Free Trial</span>
+                                </Link>
+                            </div>
+                        </div> 
+                    </div>            
+                </div> 
+            </div>
+
+            <MobileMenu handleMobileMenu={handleMobileMenu} />
+        </header>
+        </>
+    )
+}
