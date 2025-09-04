@@ -19,19 +19,19 @@ export default function Banner() {
                 
                 <div className="feature_list">
                   <div className="feature_item">
-                    <div className="feature_icon">
+                    <div className="text-black">
                       <i className="fas fa-th"></i>
                     </div>
                     <span>Asset management, issue tracking, and collaboration in one place</span>
                   </div>
                   <div className="feature_item">
-                    <div className="feature_icon">
+                    <div className="text-black">
                       <i className="fas fa-th"></i>
                     </div>
                     <span>Drag-and-drop Kanban, agile backlogs, Gantt-style timelines</span>
                   </div>
                   <div className="feature_item">
-                    <div className="feature_icon">
+                    <div className="text-black ">
                       <i className="fas fa-th"></i>
                     </div>
                     <span>AI-powered TaskFlow suggests next steps automatically</span>
@@ -93,7 +93,7 @@ export default function Banner() {
                     />
                   </div>
                   
-                  <a href="/trial" className="btn_submit">
+                  <a href="" className="btn_submit">
                     <i className="fas fa-rocket"></i>
                     Start Free Trial
                   </a>

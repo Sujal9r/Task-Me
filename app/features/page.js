@@ -263,7 +263,7 @@ export default function FeaturesPage() {
                                 </div>
                             </div>
                             <div className="col-lg-6 text-center">
-                                <img src='/assets/images/feature2.png' alt='Feature Hero' style={{ maxWidth: '100%', height: 'auto' }}/>
+                                <img src='/public/assets/images/feature2.png' alt='Feature Hero'/>
                             </div>
                         </div>
                     </div>

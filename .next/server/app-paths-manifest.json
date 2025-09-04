@@ -1,10 +1,8 @@
 {
   "/page": "app/page.js",
-  "/not-found": "app/not-found.js",
-  "/careers/page": "app/careers/page.js",
-  "/pricing/page": "app/pricing/page.js",
-  "/about/page": "app/about/page.js",
-  "/features/page": "app/features/page.js",
+  "/trial/page": "app/trial/page.js",
   "/solutions/page": "app/solutions/page.js",
-  "/trial/page": "app/trial/page.js"
+  "/features/page": "app/features/page.js",
+  "/about/page": "app/about/page.js",
+  "/pricing/page": "app/pricing/page.js"
 }
