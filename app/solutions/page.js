@@ -627,24 +627,14 @@ export default function SolutionsPage() {
                         <div style={{ textAlign: 'center', marginTop: '60px' }}>
                             <div style={{
                                 width: '100%',
-                                height: '400px',
+                                height: 'auto',
                                 backgroundColor: '#ffffff',
                                 borderRadius: '16px',
                                 padding: '20px',
                                 border: '1px solid #D6A799',
                                 position: 'relative'
                             }}>
-                                <div style={{
-                                    width: '100%',
-                                    height: '100%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    color: '#8B4513',
-                                    fontSize: '1.1rem'
-                                }}>
-                                    Workflow Diagram Image
-                                </div>
+                              <img src='/assets/images/Solution.png' alt='Feature Hero' style={{ maxWidth: '100%', height: 'auto' }}/>
                             </div>
                         </div>
                     </div>

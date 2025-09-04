@@ -13,14 +13,9 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                     <div className="main_header_inner">
                         <div className="main_header_logo">
                             <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-                                <div className="logo_container">
-                                    <div className="logo_grid">
-                                        <div className="logo_square"></div>
-                                        <div className="logo_square"></div>
-                                        <div className="logo_square"></div>
-                                        <div className="logo_square"></div>
-                                    </div>
-                                    <h3 className="logo_text">Task Me</h3>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                    <img src="/Task-me.png" alt="Task Me Logo" style={{ height: '40px', width: 'auto' }} />
+                                    <h3 style={{ margin: 0, fontSize: '24px', fontWeight: '600' }}>Task Me</h3>
                                 </div>
                             </Link>
                         </div>
@@ -52,14 +47,9 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                     <div className="main_header_inner">
                         <div className="main_header_logo">
                             <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-                                <div className="logo_container">
-                                    <div className="logo_grid">
-                                        <div className="logo_square"></div>
-                                        <div className="logo_square"></div>
-                                        <div className="logo_square"></div>
-                                        <div className="logo_square"></div>
-                                    </div>
-                                    <h3 className="logo_text">Task Me</h3>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                    <img src="/Task-me.png" alt="Task Me Logo" style={{ height: '40px', width: 'auto' }} />
+                                    <h3 style={{ margin: 0, fontSize: '24px', fontWeight: '600' }}>Task Me</h3>
                                 </div>
                             </Link>
                         </div>

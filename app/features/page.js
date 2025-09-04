@@ -263,20 +263,7 @@ export default function FeaturesPage() {
                                 </div>
                             </div>
                             <div className="col-lg-6 text-center">
-                                <div style={{
-                                    width: '100%',
-                                    height: '400px',
-                                    backgroundColor: '#D6A799',
-                                    borderRadius: '16px',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    color: '#F4ECE2',
-                                    fontSize: '1.1rem',
-                                    border: '1px solid rgba(139, 69, 19, 0.2)'
-                                }}>
-                                    Team Collaboration Image
-                                </div>
+                                <img src='/public/assets/images/feature2.png' alt='Feature Hero'/>
                             </div>
                         </div>
                     </div>

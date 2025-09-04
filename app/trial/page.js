@@ -287,23 +287,23 @@ export default function TrialPage() {
         <style jsx>{`
           .trial-onboarding {
             padding: 80px 0;
-            background: linear-gradient(135deg, #F4ECE2 0%, #E8D5C4 100%);
+            background: linear-gradient(135deg, #EDE0D3 0%, #E8D5C4 100%);
             min-height: 100vh;
           }
 
           .account-form-section {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 40px;
-            box-shadow: 0 8px 32px rgba(139, 69, 19, 0.1);
-            border: 1px solid rgba(200, 140, 130, 0.2);
+            box-shadow: 0 8px 32px rgba(200, 141, 131, 0.15);
+            border: 1px solid rgba(200, 141, 131, 0.2);
           }
 
           .section-title {
             font-size: 28px;
             font-weight: 700;
-            color: var(--primary-color);
+            color: #8B4513;
             margin-bottom: 30px;
             font-family: var(--primary-font);
           }
@@ -329,25 +329,25 @@ export default function TrialPage() {
           .form-group label {
             font-size: 14px;
             font-weight: 600;
-            color: var(--primary-color);
+            color: #8B4513;
             font-family: var(--secondary-font);
           }
 
           .form-group input,
           .form-group select {
             padding: 12px 16px;
-            border: 2px solid rgba(200, 140, 130, 0.2);
+            border: 2px solid rgba(200, 141, 131, 0.3);
             border-radius: 12px;
             font-size: 16px;
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.9);
             transition: all 0.3s ease;
             font-family: var(--secondary-font);
           }
 
           .form-group input:focus,
           .form-group select:focus {
-            border-color: var(--theme-color);
-            box-shadow: 0 0 0 3px rgba(159, 112, 253, 0.1);
+            border-color: #C88D83;
+            box-shadow: 0 0 0 3px rgba(200, 141, 131, 0.2);
             outline: none;
           }
 
@@ -362,7 +362,7 @@ export default function TrialPage() {
             align-items: center;
             gap: 12px;
             font-size: 14px;
-            color: var(--primary-color);
+            color: #8B4513;
             cursor: pointer;
             font-family: var(--secondary-font);
           }
@@ -370,11 +370,11 @@ export default function TrialPage() {
           .checkbox-label input[type="checkbox"] {
             width: 18px;
             height: 18px;
-            accent-color: var(--theme-color);
+            accent-color: #C88D83;
           }
 
           .checkbox-label a {
-            color: var(--theme-color);
+            color: #C88D83;
             text-decoration: none;
             font-weight: 600;
           }
@@ -388,7 +388,7 @@ export default function TrialPage() {
           .btn-create-account {
             flex: 1;
             padding: 16px 24px;
-            background: linear-gradient(135deg, var(--theme-color) 0%, #8B5CF6 100%);
+            background: linear-gradient(135deg, #C88D83 0%, #B07A70 100%);
             color: white;
             border: none;
             border-radius: 12px;
@@ -401,14 +401,14 @@ export default function TrialPage() {
 
           .btn-create-account:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(159, 112, 253, 0.3);
+            box-shadow: 0 8px 25px rgba(200, 141, 131, 0.4);
           }
 
           .btn-sign-in {
             padding: 16px 24px;
             background: transparent;
-            color: var(--primary-color);
-            border: 2px solid rgba(200, 140, 130, 0.3);
+            color: #8B4513;
+            border: 2px solid rgba(200, 141, 131, 0.4);
             border-radius: 12px;
             font-size: 16px;
             font-weight: 600;
@@ -418,8 +418,8 @@ export default function TrialPage() {
           }
 
           .btn-sign-in:hover {
-            background: rgba(200, 140, 130, 0.1);
-            border-color: var(--theme-color);
+            background: rgba(200, 141, 131, 0.1);
+            border-color: #C88D83;
           }
 
           .trial-info-section {
@@ -429,18 +429,18 @@ export default function TrialPage() {
           }
 
           .trial-step {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 40px;
-            box-shadow: 0 8px 32px rgba(139, 69, 19, 0.1);
-            border: 1px solid rgba(200, 140, 130, 0.2);
+            box-shadow: 0 8px 32px rgba(200, 141, 131, 0.15);
+            border: 1px solid rgba(200, 141, 131, 0.2);
           }
 
           .step-indicator {
             display: inline-block;
             padding: 8px 16px;
-            background: linear-gradient(135deg, var(--theme-color) 0%, #8B5CF6 100%);
+            background: linear-gradient(135deg, #C88D83 0%, #B07A70 100%);
             color: white;
             border-radius: 20px;
             font-size: 12px;
@@ -452,7 +452,7 @@ export default function TrialPage() {
           .trial-title {
             font-size: 32px;
             font-weight: 700;
-            color: var(--primary-color);
+            color: #8B4513;
             margin-bottom: 12px;
             font-family: var(--primary-font);
           }
@@ -467,7 +467,7 @@ export default function TrialPage() {
           .plan-selection h3 {
             font-size: 20px;
             font-weight: 600;
-            color: var(--primary-color);
+            color: #8B4513;
             margin-bottom: 20px;
             font-family: var(--primary-font);
           }
@@ -480,23 +480,23 @@ export default function TrialPage() {
 
           .plan-option {
             padding: 24px;
-            border: 2px solid rgba(200, 140, 130, 0.2);
+            border: 2px solid rgba(200, 141, 131, 0.3);
             border-radius: 16px;
             cursor: pointer;
             transition: all 0.3s ease;
-            background: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.8);
           }
 
           .plan-option:hover {
-            border-color: var(--theme-color);
+            border-color: #C88D83;
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(159, 112, 253, 0.15);
+            box-shadow: 0 8px 25px rgba(200, 141, 131, 0.2);
           }
 
           .plan-option.selected {
-            border-color: var(--theme-color);
-            background: rgba(159, 112, 253, 0.05);
-            box-shadow: 0 8px 25px rgba(159, 112, 253, 0.2);
+            border-color: #C88D83;
+            background: rgba(200, 141, 131, 0.08);
+            box-shadow: 0 8px 25px rgba(200, 141, 131, 0.25);
           }
 
           .plan-header {
@@ -509,14 +509,14 @@ export default function TrialPage() {
           .plan-header h4 {
             font-size: 18px;
             font-weight: 600;
-            color: var(--primary-color);
+            color: #8B4513;
             margin: 0;
             font-family: var(--primary-font);
           }
 
           .plan-badge {
             padding: 4px 12px;
-            background: linear-gradient(135deg, var(--secondary-color) 0%, #F472B6 100%);
+            background: linear-gradient(135deg, var(--secondary-color) 0%, # 100%);
             color: white;
             border-radius: 12px;
             font-size: 12px;
@@ -533,7 +533,7 @@ export default function TrialPage() {
 
           .btn-select-plan {
             padding: 12px 24px;
-            background: linear-gradient(135deg, var(--theme-color) 0%, #8B5CF6 100%);
+            background: linear-gradient(135deg, #C88D83 0%, #B07A70 100%);
             color: white;
             border: none;
             border-radius: 10px;
@@ -546,17 +546,17 @@ export default function TrialPage() {
 
           .btn-select-plan:hover {
             transform: translateY(-1px);
-            box-shadow: 0 4px 15px rgba(159, 112, 253, 0.3);
+            box-shadow: 0 4px 15px rgba(200, 141, 131, 0.4);
           }
 
           .why-teams-section,
           .faq-section {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 40px;
-            box-shadow: 0 8px 32px rgba(139, 69, 19, 0.1);
-            border: 1px solid rgba(200, 140, 130, 0.2);
+            box-shadow: 0 8px 32px rgba(200, 141, 131, 0.15);
+            border: 1px solid rgba(200, 141, 131, 0.2);
           }
 
           .why-teams-section h3,
@@ -592,7 +592,7 @@ export default function TrialPage() {
           .feature-icon {
             width: 40px;
             height: 40px;
-            background: linear-gradient(135deg, var(--theme-color) 0%, #8B5CF6 100%);
+            background: linear-gradient(135deg, var(--theme-color) 0%, # 100%);
             border-radius: 10px;
             display: flex;
             align-items: center;

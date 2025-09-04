@@ -266,7 +266,7 @@ export default function AboutPage() {
                     position: 'relative'
                 }}>
                     <div className="container">
-                        <div style={{ textAlign: 'center', marginBottom: '60px' }}>
+                        <div style={{ textAlign: 'center', marginBottom: '60px' , flexDirection: 'column', display: 'flex', alignItems: 'center'}}>
                             <h2 style={{
                                 fontSize: 'clamp(2.5rem, 5vw, 3.5rem)',
                                 fontWeight: '800',
@@ -314,7 +314,7 @@ export default function AboutPage() {
                                         fontWeight: '700',
                                         color: '#ffffff',
                                         marginBottom: '8px'
-                                    }}>Alex Carter</h4>
+                                    }}>Karan Jain</h4>
                                     <p style={{
                                         fontSize: '0.9rem',
                                         color: '#F4ECE2'
@@ -349,7 +349,7 @@ export default function AboutPage() {
                                         fontWeight: '700',
                                         color: '#ffffff',
                                         marginBottom: '8px'
-                                    }}>Priya N.</h4>
+                                    }}>Naresh Sharma</h4>
                                     <p style={{
                                         fontSize: '0.9rem',
                                         color: '#F4ECE2'
@@ -384,46 +384,11 @@ export default function AboutPage() {
                                         fontWeight: '700',
                                         color: '#ffffff',
                                         marginBottom: '8px'
-                                    }}>Miguel Santos</h4>
+                                    }}>Pradeep Rhode</h4>
                                     <p style={{
                                         fontSize: '0.9rem',
                                         color: '#F4ECE2'
-                                    }}>Head of Product</p>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-3 col-md-6 col-sm-12" style={{ marginBottom: '30px' }}>
-                                <div style={{
-                                    backgroundColor: '#D6A799',
-                                    borderRadius: '16px',
-                                    padding: '30px',
-                                    textAlign: 'center',
-                                    border: '1px solid rgba(139, 69, 19, 0.2)'
-                                }}>
-                                    <div style={{
-                                        width: '80px',
-                                        height: '80px',
-                                        borderRadius: '50%',
-                                        backgroundColor: '#8B4513',
-                                        margin: '0 auto 20px auto',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        fontSize: '2rem',
-                                        color: '#F4ECE2'
-                                    }}>
-                                        👩‍💼
-                                    </div>
-                                    <h4 style={{
-                                        fontSize: '1.2rem',
-                                        fontWeight: '700',
-                                        color: '#ffffff',
-                                        marginBottom: '8px'
-                                    }}>Ava Lee</h4>
-                                    <p style={{
-                                        fontSize: '0.9rem',
-                                        color: '#F4ECE2'
-                                    }}>VP Sales</p>
+                                    }}>CMO</p>
                                 </div>
                             </div>
                         </div>

@@ -16,9 +16,12 @@ export default function Header2({ scroll, handleMobileMenu, handlePopup }) {
                 <div className="container"> 
                     <div className="main_header_inner">
                         <div className="main_header_logo">
-                            <figure>
-                                <Link href="/"><img src="assets/images/logo.png" alt="Companny Logo"/></Link>
-                            </figure>
+                            <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                    <img src="/Task-me.png" alt="Task Me Logo" style={{ height: '40px', width: 'auto' }} />
+                                    <h3 style={{ margin: 0, fontSize: '24px', fontWeight: '600' }}>Task Me</h3>
+                                </div>
+                            </Link>
                         </div>
                         <div className="menu_right_area">
                             <div className="header_top">
@@ -65,9 +68,12 @@ export default function Header2({ scroll, handleMobileMenu, handlePopup }) {
                 <div className="container">
                     <div className="main_header_inner">
                         <div className="main_header_logo">
-                            <figure>
-                                <Link href="/"><img src="assets/images/logo.png" alt="Companny Logo"/></Link>
-                            </figure>
+                            <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                    <img src="/Task-me.png" alt="Task Me Logo" style={{ height: '40px', width: 'auto' }} />
+                                    <h3 style={{ margin: 0, fontSize: '24px', fontWeight: '600' }}>Task Me</h3>
+                                </div>
+                            </Link>
                         </div>
                         <div className="main_header_menu menu_area">
                             <nav className="main-menu clearfix">
