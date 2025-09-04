@@ -10,13 +10,10 @@ export default function Footer1() {
               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                 <div className="footer_widget task_me_widget" data-aos="fade-up">
                   <div className="footer_logo">
-                    <div className="logo_grid">
-                      <div className="logo_square"></div>
-                      <div className="logo_square"></div>
-                      <div className="logo_square"></div>
-                      <div className="logo_square"></div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                      <img src="/Task-me.png" alt="Task Me Logo" style={{ height: '40px', width: 'auto' }} />
+                      <h3 className="logo_text" style={{ margin: 0 }}>Task Me</h3>
                     </div>
-                    <h3 className="logo_text">Task Me</h3>
                   </div>
                   <p className="company_description">
                     Project management software and asset tracking platform for modern teams. 

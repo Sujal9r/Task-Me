@@ -8,7 +8,14 @@ export default function SearchPopup({ isPopup, handlePopup }) {
             <div id="search-popup" className={`search-popup ${isPopup ? "popup-visible" : ""}`}>
                 <div className="popup-inner">
                     <div className="upper-box">
-                        <figure className="logo-box"><Link href="/"><img src="assets/images/logo.png" alt=""/></Link></figure>
+                        <figure className="logo-box">
+                            <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                    <img src="/Task-me.png" alt="Task Me Logo" style={{ height: '40px', width: 'auto' }} />
+                                    <h3 style={{ margin: 0, fontSize: '20px', fontWeight: '600' }}>Task Me</h3>
+                                </div>
+                            </Link>
+                        </figure>
                         <div className="close-search" onClick={handlePopup}><span className="fa-solid fa-xmark"></span></div>
                     </div>
                     <div className="overlay-layer"></div>

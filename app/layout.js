@@ -1,4 +1,4 @@
-import "app/favicon.ico"
+import "public/Task-me.png"
 import "@/node_modules/react-modal-video/css/modal-video.css"
 import Aos_Animation from "@/components/elements/AosAnimation"
 import "public/assets/css/bootstrap.css"
@@ -12,6 +12,11 @@ import { urbanist, inter } from '@/lib/font'
 export const metadata = {
     title: 'Task Me',
     description: 'Task Me is a task management app that helps you organize and prioritize your tasks efficiently.',
+    icons: {
+        icon: '/Task-me.png',
+        shortcut: '/Task-me.png',
+        apple: '/Task-me.png',
+    },
 }
 
 export default function RootLayout({ children }) {

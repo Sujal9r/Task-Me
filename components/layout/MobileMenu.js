@@ -32,8 +32,11 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                 <div className="close-btn" onClick={handleMobileMenu}>X</div>
                 <nav className="menu-box">
                     <div className="nav-logo">
-                        <Link href="/" onClick={handleNavClick}>
-                            <img src="/assets/images/logo.png" alt="" />
+                        <Link href="/" onClick={handleNavClick} style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <img src="/Task-me.png" alt="Task Me Logo" style={{ height: '40px', width: 'auto' }} />
+                                <h3 style={{ margin: 0, fontSize: '20px', fontWeight: '600' }}>Task Me</h3>
+                            </div>
                         </Link>
                     </div>
                     <div className="menu-outer">
