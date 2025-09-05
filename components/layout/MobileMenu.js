@@ -46,44 +46,62 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                     <Link href="/" onClick={handleNavClick}>Home</Link>
                                 </li>
                                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/about" onClick={handleNavClick}>About</Link>
+                                    <Link href="/features" onClick={handleNavClick}>Features</Link>
                                 </li>
                                 <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/services" onClick={handleNavClick}>Services</Link>
+                                    <Link href="/solutions" onClick={handleNavClick}>Solutions</Link>
                                 </li>
                                 <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/blog-grid" onClick={handleNavClick}>Blog</Link>
+                                    <Link href="/pricing" onClick={handleNavClick}>Pricing</Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact" onClick={handleNavClick}>Contact Us</Link>
+                                    <Link href="/about" onClick={handleNavClick}>About</Link>
+                                </li>
+                                <li>
+                                    <Link href="/contact" onClick={handleNavClick}>Contact</Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     {/*Social Links*/}
                     <div className="contact-info">
-                        <h4>Contact Info</h4>
+                        {/* <h4>Contact Info</h4> */}
                         <ul>
-                            <li>Shop No. 30, New Aatish Market, Jaipur</li>
-                            <li>3K 9, Pawanpuri, Bikaner</li>
-                            <li><Link href="tel:+91 95875 01000">+91 95875 01000</Link></li>
-                            <li><Link href="mailto:gkhomedecorz@gmail.com">gkhomedecorz@gmail.com</Link></li>
+                            {/* <li>Shop No. 30, New Aatish Market, Jaipur</li> */}
+                            {/* <li>3K 9, Pawanpuri, Bikaner</li> */}
+                            {/* <li><Link href="tel:+91 95875 01000">+91 95875 01000</Link></li> */}
+                            {/* <li><Link href="mailto:gkhomedecorz@gmail.com">gkhomedecorz@gmail.com</Link></li> */}
                         </ul>
                     </div>
                     <ul className="social-links centred">
                         <li>
-                            <Link href="https://www.linkedin.com/in/gk-homedecorz-a988b9364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            <Link href="https://www.linkedin.com/company/applabstools">
                                 <span className="fab fa-linkedin"></span>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.facebook.com/share/16jVP7Pxwq/">
+                            <Link href="https://www.facebook.com/AppLabsTools">
                                 <span className="fab fa-facebook-square"></span>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.instagram.com/gkhomedecors?igsh=MWJ6eHkxZnczcDNzbg==">
+                            <Link href="https://www.instagram.com/applabstools/">
                                 <span className="fab fa-instagram"></span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="www.pinterest.com/applabstools">
+                                <span className="fab fa-pinterest"></span>
+                            </Link>
+                        </li>
+                         <li>
+                            <Link href="https://www.youtube.com/@AppLabsTools">
+                                <span className="fab fa-youtube"></span>
+                            </Link>
+                        </li>
+                         <li>
+                            <Link href="https://x.com/AppLabsTools">
+                                <span className="fab fa-twitter"></span>
                             </Link>
                         </li>
                     </ul>

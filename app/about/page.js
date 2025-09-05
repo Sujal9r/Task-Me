@@ -286,109 +286,214 @@ export default function AboutPage() {
                             </p>
                         </div>
 
-                        <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-12" style={{ marginBottom: '30px' }}>
+                        <div className="row justify-content-center">
+                            <div className="col-lg-4 col-md-6 col-sm-12" style={{ marginBottom: '40px' }}>
                                 <div style={{
-                                    backgroundColor: '#D6A799',
-                                    borderRadius: '16px',
-                                    padding: '30px',
+                                    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                                    borderRadius: '20px',
+                                    padding: '40px 30px',
                                     textAlign: 'center',
-                                    border: '1px solid rgba(139, 69, 19, 0.2)'
+                                    border: '1px solid rgba(139, 69, 19, 0.1)',
+                                    boxShadow: '0 8px 32px rgba(139, 69, 19, 0.1)',
+                                    height: '100%',
+                                    transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(-5px)';
+                                    e.currentTarget.style.boxShadow = '0 12px 40px rgba(139, 69, 19, 0.15)';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(0)';
+                                    e.currentTarget.style.boxShadow = '0 8px 32px rgba(139, 69, 19, 0.1)';
                                 }}>
                                     <div style={{
-                                        width: '80px',
-                                        height: '80px',
+                                        width: '120px',
+                                        height: '120px',
                                         borderRadius: '50%',
-                                        backgroundColor: '#8B4513',
-                                        margin: '0 auto 20px auto',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        fontSize: '2rem',
-                                        color: '#F4ECE2'
+                                        margin: '0 auto 25px auto',
+                                        overflow: 'hidden',
+                                        border: '4px solid #C88D83',
+                                        boxShadow: '0 4px 20px rgba(139, 69, 19, 0.2)'
                                     }}>
-                                        👨‍💼
+                                        <img 
+                                            src="/assets/images/Karan Jain.jpeg" 
+                                            alt="Karan Jain" 
+                                            style={{
+                                                width: '100%',
+                                                height: '100%',
+                                                objectFit: 'cover'
+                                            }}
+                                        />
                                     </div>
                                     <h4 style={{
-                                        fontSize: '1.2rem',
+                                        fontSize: '1.4rem',
                                         fontWeight: '700',
-                                        color: '#ffffff',
-                                        marginBottom: '8px'
+                                        color: '#8B4513',
+                                        marginBottom: '8px',
+                                        fontFamily: '"Inter", sans-serif'
                                     }}>Karan Jain</h4>
                                     <p style={{
-                                        fontSize: '0.9rem',
-                                        color: '#F4ECE2'
-                                    }}>Co-founder & CEO</p>
+                                        fontSize: '1rem',
+                                        color: '#C88D83',
+                                        marginBottom: '20px',
+                                        fontWeight: '600'
+                                    }}>Chief Executive Officer & Co-Founder</p>
+                                    <p style={{
+                                        fontSize: '0.95rem',
+                                        color: '#8B4513',
+                                        lineHeight: '1.6',
+                                        marginBottom: '25px',
+                                        textAlign: 'left'
+                                    }}>
+                                        Entrepreneurial CEO with 16+ years of hands-on experience building and scaling technology businesses. Proven ability to transform ideas into profitable products, having bootstrapped to $1.2M ARR before raising capital. Specialize in product-led growth strategies for B2B software companies.
+                                    </p>
+                                    
+                                    {/* Social Icons */}
+                                    <div style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>💼</a>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>💻</a>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>📄</a>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 col-sm-12" style={{ marginBottom: '30px' }}>
+                            <div className="col-lg-4 col-md-6 col-sm-12" style={{ marginBottom: '40px' }}>
                                 <div style={{
-                                    backgroundColor: '#D6A799',
-                                    borderRadius: '16px',
-                                    padding: '30px',
+                                    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                                    borderRadius: '20px',
+                                    padding: '40px 30px',
                                     textAlign: 'center',
-                                    border: '1px solid rgba(139, 69, 19, 0.2)'
+                                    border: '1px solid rgba(139, 69, 19, 0.1)',
+                                    boxShadow: '0 8px 32px rgba(139, 69, 19, 0.1)',
+                                    height: '100%',
+                                    transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(-5px)';
+                                    e.currentTarget.style.boxShadow = '0 12px 40px rgba(139, 69, 19, 0.15)';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(0)';
+                                    e.currentTarget.style.boxShadow = '0 8px 32px rgba(139, 69, 19, 0.1)';
                                 }}>
                                     <div style={{
-                                        width: '80px',
-                                        height: '80px',
+                                        width: '120px',
+                                        height: '120px',
                                         borderRadius: '50%',
-                                        backgroundColor: '#8B4513',
-                                        margin: '0 auto 20px auto',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        fontSize: '2rem',
-                                        color: '#F4ECE2'
+                                        margin: '0 auto 25px auto',
+                                        overflow: 'hidden',
+                                        border: '4px solid #C88D83',
+                                        boxShadow: '0 4px 20px rgba(139, 69, 19, 0.2)'
                                     }}>
-                                        👩‍💻
+                                        <img 
+                                            src="/assets/images/NareshSharma.jpeg" 
+                                            alt="Naresh Sharma" 
+                                            style={{
+                                                width: '100%',
+                                                height: '100%',
+                                                objectFit: 'cover'
+                                            }}
+                                        />
                                     </div>
                                     <h4 style={{
-                                        fontSize: '1.2rem',
+                                        fontSize: '1.4rem',
                                         fontWeight: '700',
-                                        color: '#ffffff',
-                                        marginBottom: '8px'
+                                        color: '#8B4513',
+                                        marginBottom: '8px',
+                                        fontFamily: '"Inter", sans-serif'
                                     }}>Naresh Sharma</h4>
                                     <p style={{
-                                        fontSize: '0.9rem',
-                                        color: '#F4ECE2'
-                                    }}>Co-founder & CTO</p>
+                                        fontSize: '1rem',
+                                        color: '#C88D83',
+                                        marginBottom: '20px',
+                                        fontWeight: '600'
+                                    }}>Chief Technology Officer & Co-Founder</p>
+                                    <p style={{
+                                        fontSize: '0.95rem',
+                                        color: '#8B4513',
+                                        lineHeight: '1.6',
+                                        marginBottom: '25px',
+                                        textAlign: 'left'
+                                    }}>
+                                     Visionary technology leader driving innovation and growth at our organization. With deep expertise in software development, cloud infrastructure, and emerging technologies, he ensures the company stays ahead in the fast-paced digital landscape.
+                                    </p>
+                                    
+                                    {/* Social Icons */}
+                                    <div style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>💼</a>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>💻</a>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>📄</a>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 col-sm-12" style={{ marginBottom: '30px' }}>
+                            <div className="col-lg-4 col-md-6 col-sm-12" style={{ marginBottom: '40px' }}>
                                 <div style={{
-                                    backgroundColor: '#D6A799',
-                                    borderRadius: '16px',
-                                    padding: '30px',
+                                    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                                    borderRadius: '20px',
+                                    padding: '40px 30px',
                                     textAlign: 'center',
-                                    border: '1px solid rgba(139, 69, 19, 0.2)'
+                                    border: '1px solid rgba(139, 69, 19, 0.1)',
+                                    boxShadow: '0 8px 32px rgba(139, 69, 19, 0.1)',
+                                    height: '100%',
+                                    transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(-5px)';
+                                    e.currentTarget.style.boxShadow = '0 12px 40px rgba(139, 69, 19, 0.15)';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(0)';
+                                    e.currentTarget.style.boxShadow = '0 8px 32px rgba(139, 69, 19, 0.1)';
                                 }}>
                                     <div style={{
-                                        width: '80px',
-                                        height: '80px',
+                                        width: '120px',
+                                        height: '120px',
                                         borderRadius: '50%',
-                                        backgroundColor: '#8B4513',
-                                        margin: '0 auto 20px auto',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        fontSize: '2rem',
-                                        color: '#F4ECE2'
+                                        margin: '0 auto 25px auto',
+                                        overflow: 'hidden',
+                                        border: '4px solid #C88D83',
+                                        boxShadow: '0 4px 20px rgba(139, 69, 19, 0.2)'
                                     }}>
-                                        👨‍💼
+                                        <img 
+                                            src="/assets/images/Pradeeprhode.jpeg" 
+                                            alt="Pradeep Rhode" 
+                                            style={{
+                                                width: '100%',
+                                                height: '100%',
+                                                objectFit: 'cover'
+                                            }}
+                                        />
                                     </div>
                                     <h4 style={{
-                                        fontSize: '1.2rem',
+                                        fontSize: '1.4rem',
                                         fontWeight: '700',
-                                        color: '#ffffff',
-                                        marginBottom: '8px'
+                                        color: '#8B4513',
+                                        marginBottom: '8px',
+                                        fontFamily: '"Inter", sans-serif'
                                     }}>Pradeep Rhode</h4>
                                     <p style={{
-                                        fontSize: '0.9rem',
-                                        color: '#F4ECE2'
-                                    }}>CMO</p>
+                                        fontSize: '1rem',
+                                        color: '#C88D83',
+                                        marginBottom: '20px',
+                                        fontWeight: '600'
+                                    }}>Chief Marketing Officer & Co-Founder</p>
+                                    <p style={{
+                                        fontSize: '0.95rem',
+                                        color: '#8B4513',
+                                        lineHeight: '1.6',
+                                        marginBottom: '25px',
+                                        textAlign: 'left'
+                                    }}>
+                                        27 years of extensive marketing experience with a proven track record of success. Skilled in working with international customers and seamlessly building marketing strategies that drive growth and long-term impact.
+                                    </p>
+                                    
+                                    {/* Social Icons */}
+                                    <div style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>💼</a>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>🌐</a>
+                                        <a href="#" style={{ color: '#8B4513', fontSize: '1.2rem' }}>📄</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
